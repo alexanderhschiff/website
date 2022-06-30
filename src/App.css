@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  background-color: #6d2dfe;
+}
+
+.top-block {
+  /* a solid block of 6D2DFE */
+  /* background-image: linear-gradient(to bottom, #6d2dfe 30%, 70%, #fff); */
+  background-color: #6d2dfe;
+  height: 300vh;
+  width: 100vw;
+}
+
+.name-and-hello {
+  padding: 10%;
+}
+
+.name-and-hello > h1 {
+  font-size: 5vw;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.name-and-hello > p {
+  font-size: 2vw;
+  color: #fff;
+  text-align: justify;
+}
+
+/* EXPERIENCE */
+.experiences {
+  width: 80vw;
+  margin: 0;
+  padding: 10vh 10vw;
+  color: #fff;
+  font-size: 2em;
+}
+
+.experience {
+}
+
+.item {
+  height: 5vh;
+  padding: 5vh 0 1vh 0;
+}
+
+.title {
+  float: left;
+}
+
+.year {
+  float: right;
+}
+
+.item > hr {
+  margin: 1% 0;
+}
