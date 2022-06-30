@@ -1,58 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300;400;800&family=DotGothic16&family=Inter:wght@400;700&family=Spline+Sans:wght@400;700&display=swap");
+
 * {
   margin: 0;
+  padding: 0;
   background-color: #6d2dfe;
-}
-
-.top-block {
-  /* a solid block of 6D2DFE */
-  /* background-image: linear-gradient(to bottom, #6d2dfe 30%, 70%, #fff); */
-  background-color: #6d2dfe;
-  height: 300vh;
-  width: 100vw;
+  font-family: "Spline Sans", monospace;
 }
 
 .name-and-hello {
-  padding: 10%;
+  padding: 10vh 10vw;
 }
 
 .name-and-hello > h1 {
-  font-size: 5vw;
-  font-weight: bold;
+  font-size: 10vmin;
+  font-weight: 800;
   color: #fff;
   margin: 0;
-}
-
-.name-and-hello > p {
-  font-size: 2vw;
-  color: #fff;
-  text-align: justify;
 }
 
 /* EXPERIENCE */
 .experiences {
   width: 80vw;
-  margin: 0;
-  padding: 10vh 10vw;
+  padding: 1vh 10vw;
   color: #fff;
-  font-size: 2em;
+  font-size: 4vmin;
 }
 
+/* experience has a solid white underline under it */
 .experience {
+  position: relative;
+  margin: 1vh 0;
+  padding: 1vh 0;
+  border-bottom: 3px solid #fff;
 }
 
 .item {
   height: 5vh;
-  padding: 5vh 0 1vh 0;
+  padding: 5vmin 0 2vmin 0;
 }
 
 .title {
   float: left;
 }
 
+.title:hover {
+  color: #ccc;
+}
+
 .year {
   float: right;
+  font-family: "DotGothic16";
 }
 
 .item > hr {
   margin: 1% 0;
+}
+
+.description {
+  font-size: 3vmin;
+  padding: 3vh 0;
+}
+
+/* BOTTOM */
+.bottom {
+  width: 80vw;
+  padding: 10vh 10vw;
 }
